@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color:#333;
+    --black-color: #000;
+    --white-color: #fff;
+    --primary-color:#3fd0d4;
+    --primary-color-2:#3abdc1;
+
+    --header-height:46px;
+
+}
+
+html {
+    font-size: 62.5%; /*10px*/
+    line-height: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+@keyframes slideDown { 
+    from{
+        transform: scaleY(0);
+    }
+    to{
+        transform: scaleY(1);
+    }
+}
